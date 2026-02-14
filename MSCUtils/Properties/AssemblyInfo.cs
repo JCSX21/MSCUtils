@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("MSCUtils")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MyUniversalUtils")]
+[assembly: AssemblyDescription("Provides various Utils to make Mod development easier")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MSCUtils")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
+[assembly: AssemblyCompany("JCSX")]
+[assembly: AssemblyProduct("MyUniversalUtils")]
+[assembly: AssemblyCopyright("Copyright JCSX©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
