@@ -21,10 +21,10 @@ namespace MyUniversalUtils.ModLoader
         /// <summary>
         /// Creates a new AssetExtensions instance. Note that the Bundles are NOT Unloaded to prevent beginner Porgrammers erros. If you need it unload you can always call the Unload method on the Bundle property of the AssetExtensions instance.
         /// </summary>
-        /// <param name="assetBundlePath">Path of Asset being loaded from Embedded Resource.</param>
-        public AssetExtensions(string assetBundlePath)
+        /// <param name="bundle">Bundle to Set.</param>
+        public AssetExtensions(AssetBundle bundle)
         {
-            Bundle = GetBundle(assetBundlePath);
+            Bundle = bundle;
         }
         /// <summary>
         /// Creates a new AssetExtensions instance. Note that the Bundles are NOT Unloaded to prevent beginner Porgrammers erros. If you need it unload you can always call the Unload method on the Bundle property of the AssetExtensions instance.
@@ -45,17 +45,6 @@ namespace MyUniversalUtils.ModLoader
         }
 
         // Static Functions
-        private static AssetBundle GetBundle(string path)
-        {
-            if (string.IsNullOrEmpty(path))
-            {
-                ModConsole.LogError("Asset bundle path cannot be null or empty.");
-                return null;
-            }
-            AssetBundle bundle = LoadAssets.LoadBundle(path);
-            bundle.Unload(false);
-            return bundle;
-        }
         private static AssetBundle GetBundle(byte[] bundleFromResources)
         {
             if (bundleFromResources == null)
