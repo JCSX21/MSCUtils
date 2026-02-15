@@ -53,7 +53,6 @@ namespace MyUniversalUtils.ModLoader
                 return null;
             }
             AssetBundle bundle = LoadAssets.LoadBundle(bundleFromResources);
-            bundle.Unload(false);
             return bundle;
         }
         private static AssetBundle GetBundle(Mod mod, string bundleName)
@@ -69,7 +68,6 @@ namespace MyUniversalUtils.ModLoader
                 return null;
             }
             AssetBundle bundle = LoadAssets.LoadBundle(mod, bundleName);
-            bundle.Unload(false);
             return bundle;
         }
         private static T GetAsset<T>(string assetName, AssetBundle assetBundle) where T : UnityEngine.Object
