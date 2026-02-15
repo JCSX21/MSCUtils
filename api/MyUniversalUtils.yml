@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyUniversalUtils
+  commentId: N:MyUniversalUtils
+  id: MyUniversalUtils
+  children:
+  - MyUniversalUtils.MSCCars
+  - MyUniversalUtils.MWCCars
+  langs:
+  - csharp
+  - vb
+  name: MyUniversalUtils
+  nameWithType: MyUniversalUtils
+  fullName: MyUniversalUtils
+  type: Namespace
+  assemblies:
+  - MyUniversalUtils
+references:
+- uid: MyUniversalUtils.MSCCars
+  commentId: T:MyUniversalUtils.MSCCars
+  parent: MyUniversalUtils
+  href: MyUniversalUtils.MSCCars.html
+  name: MSCCars
+  nameWithType: MSCCars
+  fullName: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MWCCars
+  commentId: T:MyUniversalUtils.MWCCars
+  parent: MyUniversalUtils
+  href: MyUniversalUtils.MWCCars.html
+  name: MWCCars
+  nameWithType: MWCCars
+  fullName: MyUniversalUtils.MWCCars
+- uid: MyUniversalUtils
+  commentId: N:MyUniversalUtils
+  href: MyUniversalUtils.html
+  name: MyUniversalUtils
+  nameWithType: MyUniversalUtils
+  fullName: MyUniversalUtils

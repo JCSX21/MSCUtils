@@ -1,0 +1,1599 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  commentId: T:MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  id: AssetExtensions
+  parent: MyUniversalUtils.ModLoaderExtensions
+  children:
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(MSCLoader.Mod,System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(System.Byte[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(UnityEngine.AssetBundle)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips(System.String[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials(System.String[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes(System.String[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs(System.String[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders(System.String[])
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture(System.String)
+  - MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: AssetExtensions
+  nameWithType: AssetExtensions
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  type: Class
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: AssetExtensions
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 11
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Takes care of loading assets from AssetBundles in a more user-friendly way, with multiple constructors for different loading methods and various functions to load specific asset types. Also includes convenient methods for instantiating prefabs directly from the bundle.
+  example: []
+  syntax:
+    content: public class AssetExtensions
+    content.vb: Public Class AssetExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+  commentId: P:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+  id: Bundle
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: Bundle
+  nameWithType: AssetExtensions.Bundle
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Bundle
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 18
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Bundle of given AssetExtensions isntance
+  example: []
+  syntax:
+    content: public AssetBundle Bundle { get; }
+    parameters: []
+    return:
+      type: UnityEngine.AssetBundle
+    content.vb: Public Property Bundle As AssetBundle
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle*
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(UnityEngine.AssetBundle)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(UnityEngine.AssetBundle)
+  id: '#ctor(UnityEngine.AssetBundle)'
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: AssetExtensions(AssetBundle)
+  nameWithType: AssetExtensions.AssetExtensions(AssetBundle)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.AssetExtensions(UnityEngine.AssetBundle)
+  type: Constructor
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: .ctor
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 26
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Creates a new AssetExtensions instance. Note that the Bundles are NOT Unloaded to prevent beginner Porgrammers erros. If you need it unload you can always call the Unload method on the Bundle property of the AssetExtensions instance.
+  example: []
+  syntax:
+    content: public AssetExtensions(AssetBundle bundle)
+    parameters:
+    - id: bundle
+      type: UnityEngine.AssetBundle
+      description: Bundle to Load in. We cant use LoadAssets.LoadBundle directly for Embedded Assets.
+    content.vb: Public Sub New(bundle As AssetBundle)
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor*
+  nameWithType.vb: AssetExtensions.New(AssetBundle)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.New(UnityEngine.AssetBundle)
+  name.vb: New(AssetBundle)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(System.Byte[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: AssetExtensions(byte[])
+  nameWithType: AssetExtensions.AssetExtensions(byte[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.AssetExtensions(byte[])
+  type: Constructor
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: .ctor
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 34
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Creates a new AssetExtensions instance. Note that the Bundles are NOT Unloaded to prevent beginner Porgrammers erros. If you need it unload you can always call the Unload method on the Bundle property of the AssetExtensions instance.
+  example: []
+  syntax:
+    content: public AssetExtensions(byte[] assetBundleResource)
+    parameters:
+    - id: assetBundleResource
+      type: System.Byte[]
+      description: Resources.YourBundle
+    content.vb: Public Sub New(assetBundleResource As Byte())
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor*
+  nameWithType.vb: AssetExtensions.New(Byte())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.New(Byte())
+  name.vb: New(Byte())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(MSCLoader.Mod,System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor(MSCLoader.Mod,System.String)
+  id: '#ctor(MSCLoader.Mod,System.String)'
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: AssetExtensions(Mod, string)
+  nameWithType: AssetExtensions.AssetExtensions(Mod, string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.AssetExtensions(MSCLoader.Mod, string)
+  type: Constructor
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: .ctor
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 43
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Creates a new AssetExtensions instance. Note that the Bundles are NOT Unloaded to prevent beginner Porgrammers erros. If you need it unload you can always call the Unload method on the Bundle property of the AssetExtensions instance.
+  example: []
+  syntax:
+    content: public AssetExtensions(Mod mod, string assetBundleName)
+    parameters:
+    - id: mod
+      type: MSCLoader.Mod
+      description: Your Mod
+    - id: assetBundleName
+      type: System.String
+      description: Name of the Bundle in given Mod Asset Folder
+    content.vb: Public Sub New([mod] As [Mod], assetBundleName As String)
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor*
+  nameWithType.vb: AssetExtensions.New(Mod, String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.New(MSCLoader.Mod, String)
+  name.vb: New(Mod, String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture(System.String)
+  id: LoadTexture(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadTexture(string)
+  nameWithType: AssetExtensions.LoadTexture(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadTexture
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 96
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads a Texture from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public Texture LoadTexture(string textureName)
+    parameters:
+    - id: textureName
+      type: System.String
+    return:
+      type: UnityEngine.Texture
+    content.vb: Public Function LoadTexture(textureName As String) As Texture
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture*
+  nameWithType.vb: AssetExtensions.LoadTexture(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture(String)
+  name.vb: LoadTexture(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab(System.String)
+  id: LoadPrefab(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadPrefab(string)
+  nameWithType: AssetExtensions.LoadPrefab(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 103
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads a GameObject from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public GameObject LoadPrefab(string prefabName)
+    parameters:
+    - id: prefabName
+      type: System.String
+    return:
+      type: UnityEngine.GameObject
+    content.vb: Public Function LoadPrefab(prefabName As String) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab*
+  nameWithType.vb: AssetExtensions.LoadPrefab(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab(String)
+  name.vb: LoadPrefab(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip(System.String)
+  id: LoadAudioClip(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadAudioClip(string)
+  nameWithType: AssetExtensions.LoadAudioClip(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadAudioClip
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 110
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads an AudioClip from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public AudioClip LoadAudioClip(string audioClipName)
+    parameters:
+    - id: audioClipName
+      type: System.String
+    return:
+      type: UnityEngine.AudioClip
+    content.vb: Public Function LoadAudioClip(audioClipName As String) As AudioClip
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip*
+  nameWithType.vb: AssetExtensions.LoadAudioClip(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip(String)
+  name.vb: LoadAudioClip(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial(System.String)
+  id: LoadMaterial(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadMaterial(string)
+  nameWithType: AssetExtensions.LoadMaterial(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadMaterial
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 117
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads a Material from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public Material LoadMaterial(string materialName)
+    parameters:
+    - id: materialName
+      type: System.String
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Function LoadMaterial(materialName As String) As Material
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial*
+  nameWithType.vb: AssetExtensions.LoadMaterial(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial(String)
+  name.vb: LoadMaterial(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh(System.String)
+  id: LoadMesh(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadMesh(string)
+  nameWithType: AssetExtensions.LoadMesh(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadMesh
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 124
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads a Mesh from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public Mesh LoadMesh(string meshAssetName)
+    parameters:
+    - id: meshAssetName
+      type: System.String
+    return:
+      type: UnityEngine.Mesh
+    content.vb: Public Function LoadMesh(meshAssetName As String) As Mesh
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh*
+  nameWithType.vb: AssetExtensions.LoadMesh(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh(String)
+  name.vb: LoadMesh(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader(System.String)
+  id: LoadShader(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadShader(string)
+  nameWithType: AssetExtensions.LoadShader(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadShader
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 131
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads a Shader from the AssetExtensions instance Bundle with the given name.
+  example: []
+  syntax:
+    content: public Shader LoadShader(string shaderName)
+    parameters:
+    - id: shaderName
+      type: System.String
+    return:
+      type: UnityEngine.Shader
+    content.vb: Public Function LoadShader(shaderName As String) As Shader
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader*
+  nameWithType.vb: AssetExtensions.LoadShader(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader(String)
+  name.vb: LoadShader(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures(System.String[])
+  id: LoadTextures(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadTextures(params string[])
+  nameWithType: AssetExtensions.LoadTextures(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadTextures
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 141
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Textures from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public Texture[] LoadTextures(params string[] textureNames)
+    parameters:
+    - id: textureNames
+      type: System.String[]
+    return:
+      type: UnityEngine.Texture[]
+    content.vb: Public Function LoadTextures(ParamArray textureNames As String()) As Texture()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures*
+  nameWithType.vb: AssetExtensions.LoadTextures(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures(ParamArray String())
+  name.vb: LoadTextures(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs(System.String[])
+  id: LoadPrefabs(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadPrefabs(params string[])
+  nameWithType: AssetExtensions.LoadPrefabs(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadPrefabs
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 153
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Prefabs from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public GameObject[] LoadPrefabs(params string[] prefabNames)
+    parameters:
+    - id: prefabNames
+      type: System.String[]
+    return:
+      type: UnityEngine.GameObject[]
+    content.vb: Public Function LoadPrefabs(ParamArray prefabNames As String()) As GameObject()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs*
+  nameWithType.vb: AssetExtensions.LoadPrefabs(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs(ParamArray String())
+  name.vb: LoadPrefabs(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips(System.String[])
+  id: LoadAudioClips(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadAudioClips(params string[])
+  nameWithType: AssetExtensions.LoadAudioClips(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadAudioClips
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 165
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Audio Clips from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public AudioClip[] LoadAudioClips(params string[] audioClipNames)
+    parameters:
+    - id: audioClipNames
+      type: System.String[]
+    return:
+      type: UnityEngine.AudioClip[]
+    content.vb: Public Function LoadAudioClips(ParamArray audioClipNames As String()) As AudioClip()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips*
+  nameWithType.vb: AssetExtensions.LoadAudioClips(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips(ParamArray String())
+  name.vb: LoadAudioClips(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials(System.String[])
+  id: LoadMaterials(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadMaterials(params string[])
+  nameWithType: AssetExtensions.LoadMaterials(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadMaterials
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 177
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Materials from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public Material[] LoadMaterials(params string[] materialNames)
+    parameters:
+    - id: materialNames
+      type: System.String[]
+    return:
+      type: UnityEngine.Material[]
+    content.vb: Public Function LoadMaterials(ParamArray materialNames As String()) As Material()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials*
+  nameWithType.vb: AssetExtensions.LoadMaterials(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials(ParamArray String())
+  name.vb: LoadMaterials(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes(System.String[])
+  id: LoadMeshes(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadMeshes(params string[])
+  nameWithType: AssetExtensions.LoadMeshes(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadMeshes
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 189
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Meshes from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public Mesh[] LoadMeshes(params string[] meshAssetNames)
+    parameters:
+    - id: meshAssetNames
+      type: System.String[]
+    return:
+      type: UnityEngine.Mesh[]
+    content.vb: Public Function LoadMeshes(ParamArray meshAssetNames As String()) As Mesh()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes*
+  nameWithType.vb: AssetExtensions.LoadMeshes(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes(ParamArray String())
+  name.vb: LoadMeshes(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders(System.String[])
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders(System.String[])
+  id: LoadShaders(System.String[])
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: LoadShaders(params string[])
+  nameWithType: AssetExtensions.LoadShaders(params string[])
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders(params string[])
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: LoadShaders
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 201
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Loads Shaders from the AssetExtensions instance Bundle with the given names.
+  example: []
+  syntax:
+    content: public Shader[] LoadShaders(params string[] shaderNames)
+    parameters:
+    - id: shaderNames
+      type: System.String[]
+    return:
+      type: UnityEngine.Shader[]
+    content.vb: Public Function LoadShaders(ParamArray shaderNames As String()) As Shader()
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders*
+  nameWithType.vb: AssetExtensions.LoadShaders(ParamArray String())
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders(ParamArray String())
+  name.vb: LoadShaders(ParamArray String())
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String)
+  id: InstantiateFromPrefab(System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 218
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle by name.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String)
+  name.vb: InstantiateFromPrefab(String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String)
+  id: InstantiateFromPrefab(System.String,System.String)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, string)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, string)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, string)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 231
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle by name and assigns a custom name.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, string name)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: name
+      type: System.String
+      description: The name to assign to the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, name As String) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, String)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, String)
+  name.vb: InstantiateFromPrefab(String, String)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3)
+  id: InstantiateFromPrefab(System.String,UnityEngine.Vector3)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, Vector3)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, Vector3)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 246
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle at a specified local position.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, Vector3 pos)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: pos
+      type: UnityEngine.Vector3
+      description: Local position to set for the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, pos As Vector3) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, Vector3)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, UnityEngine.Vector3)
+  name.vb: InstantiateFromPrefab(String, Vector3)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3)
+  id: InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, string, Vector3)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, string, Vector3)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, string, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 261
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle with a custom name at a specified local position.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, string name, Vector3 pos)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: name
+      type: System.String
+      description: The name to assign to the instantiated GameObject.
+    - id: pos
+      type: UnityEngine.Vector3
+      description: Local position to set for the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, name As String, pos As Vector3) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, String, Vector3)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, String, UnityEngine.Vector3)
+  name.vb: InstantiateFromPrefab(String, String, Vector3)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, Vector3, Vector3)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, Vector3, Vector3)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 277
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle at a specified position and rotation.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, Vector3 position, Vector3 rotation)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: position
+      type: UnityEngine.Vector3
+      description: Local position for the instantiated GameObject.
+    - id: rotation
+      type: UnityEngine.Vector3
+      description: Local rotation (Euler angles) for the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, position As Vector3, rotation As Vector3) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, Vector3, Vector3)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, UnityEngine.Vector3, UnityEngine.Vector3)
+  name.vb: InstantiateFromPrefab(String, Vector3, Vector3)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, string, Vector3, Vector3)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, string, Vector3, Vector3)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, string, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 294
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle with a custom name at a specified position and rotation.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, string name, Vector3 position, Vector3 rotation)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: name
+      type: System.String
+      description: The name to assign to the instantiated GameObject.
+    - id: position
+      type: UnityEngine.Vector3
+      description: Local position for the instantiated GameObject.
+    - id: rotation
+      type: UnityEngine.Vector3
+      description: Local rotation (Euler angles) for the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, name As String, position As Vector3, rotation As Vector3) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, String, Vector3, Vector3)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, String, UnityEngine.Vector3, UnityEngine.Vector3)
+  name.vb: InstantiateFromPrefab(String, String, Vector3, Vector3)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  id: InstantiateFromPrefab(System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, Vector3, Vector3, Transform)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, Vector3, Vector3, Transform)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 312
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle at a specified position and rotation with a parent Transform.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, Vector3 position, Vector3 rotation, Transform parent)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: position
+      type: UnityEngine.Vector3
+      description: Local position for the instantiated GameObject.
+    - id: rotation
+      type: UnityEngine.Vector3
+      description: Local rotation (Euler angles) for the instantiated GameObject.
+    - id: parent
+      type: UnityEngine.Transform
+      description: Parent Transform to assign to the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, position As Vector3, rotation As Vector3, parent As Transform) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, Vector3, Vector3, Transform)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Transform)
+  name.vb: InstantiateFromPrefab(String, Vector3, Vector3, Transform)
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  commentId: M:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  id: InstantiateFromPrefab(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Transform)
+  parent: MyUniversalUtils.ModLoaderExtensions.AssetExtensions
+  langs:
+  - csharp
+  - vb
+  name: InstantiateFromPrefab(string, string, Vector3, Vector3, Transform)
+  nameWithType: AssetExtensions.InstantiateFromPrefab(string, string, Vector3, Vector3, Transform)
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(string, string, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: InstantiateFromPrefab
+    path: MSCUtils/ModLoaderExtensions/AssetExtensions.cs
+    startLine: 331
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.ModLoaderExtensions
+  summary: Instantiates a prefab from this instance's AssetBundle with a custom name at a specified position and rotation with a parent Transform.
+  example: []
+  syntax:
+    content: public GameObject InstantiateFromPrefab(string prefabName, string name, Vector3 position, Vector3 rotation, Transform parent)
+    parameters:
+    - id: prefabName
+      type: System.String
+      description: The name of the prefab to instantiate.
+    - id: name
+      type: System.String
+      description: The name to assign to the instantiated GameObject.
+    - id: position
+      type: UnityEngine.Vector3
+      description: Local position for the instantiated GameObject.
+    - id: rotation
+      type: UnityEngine.Vector3
+      description: Local rotation (Euler angles) for the instantiated GameObject.
+    - id: parent
+      type: UnityEngine.Transform
+      description: Parent Transform to assign to the instantiated GameObject.
+    return:
+      type: UnityEngine.GameObject
+      description: The instantiated GameObject.
+    content.vb: Public Function InstantiateFromPrefab(prefabName As String, name As String, position As Vector3, rotation As Vector3, parent As Transform) As GameObject
+  overload: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  nameWithType.vb: AssetExtensions.InstantiateFromPrefab(String, String, Vector3, Vector3, Transform)
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab(String, String, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Transform)
+  name.vb: InstantiateFromPrefab(String, String, Vector3, Vector3, Transform)
+references:
+- uid: MyUniversalUtils.ModLoaderExtensions
+  commentId: N:MyUniversalUtils.ModLoaderExtensions
+  href: MyUniversalUtils.html
+  name: MyUniversalUtils.ModLoaderExtensions
+  nameWithType: MyUniversalUtils.ModLoaderExtensions
+  fullName: MyUniversalUtils.ModLoaderExtensions
+  spec.csharp:
+  - uid: MyUniversalUtils
+    name: MyUniversalUtils
+    href: MyUniversalUtils.html
+  - name: .
+  - uid: MyUniversalUtils.ModLoaderExtensions
+    name: ModLoaderExtensions
+    href: MyUniversalUtils.ModLoaderExtensions.html
+  spec.vb:
+  - uid: MyUniversalUtils
+    name: MyUniversalUtils
+    href: MyUniversalUtils.html
+  - name: .
+  - uid: MyUniversalUtils.ModLoaderExtensions
+    name: ModLoaderExtensions
+    href: MyUniversalUtils.ModLoaderExtensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_Bundle
+  name: Bundle
+  nameWithType: AssetExtensions.Bundle
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.Bundle
+- uid: UnityEngine.AssetBundle
+  commentId: T:UnityEngine.AssetBundle
+  parent: UnityEngine
+  isExternal: true
+  name: AssetBundle
+  nameWithType: AssetBundle
+  fullName: UnityEngine.AssetBundle
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.#ctor
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions__ctor_UnityEngine_AssetBundle_
+  name: AssetExtensions
+  nameWithType: AssetExtensions.AssetExtensions
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.AssetExtensions
+  nameWithType.vb: AssetExtensions.New
+  fullName.vb: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: MSCLoader.Mod
+  commentId: T:MSCLoader.Mod
+  parent: MSCLoader
+  isExternal: true
+  name: Mod
+  nameWithType: Mod
+  fullName: MSCLoader.Mod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MSCLoader
+  commentId: N:MSCLoader
+  isExternal: true
+  name: MSCLoader
+  nameWithType: MSCLoader
+  fullName: MSCLoader
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadTexture_System_String_
+  name: LoadTexture
+  nameWithType: AssetExtensions.LoadTexture
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTexture
+- uid: UnityEngine.Texture
+  commentId: T:UnityEngine.Texture
+  parent: UnityEngine
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: UnityEngine.Texture
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadPrefab_System_String_
+  name: LoadPrefab
+  nameWithType: AssetExtensions.LoadPrefab
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefab
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadAudioClip_System_String_
+  name: LoadAudioClip
+  nameWithType: AssetExtensions.LoadAudioClip
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClip
+- uid: UnityEngine.AudioClip
+  commentId: T:UnityEngine.AudioClip
+  parent: UnityEngine
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: UnityEngine.AudioClip
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadMaterial_System_String_
+  name: LoadMaterial
+  nameWithType: AssetExtensions.LoadMaterial
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterial
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadMesh_System_String_
+  name: LoadMesh
+  nameWithType: AssetExtensions.LoadMesh
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMesh
+- uid: UnityEngine.Mesh
+  commentId: T:UnityEngine.Mesh
+  parent: UnityEngine
+  isExternal: true
+  name: Mesh
+  nameWithType: Mesh
+  fullName: UnityEngine.Mesh
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadShader_System_String_
+  name: LoadShader
+  nameWithType: AssetExtensions.LoadShader
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShader
+- uid: UnityEngine.Shader
+  commentId: T:UnityEngine.Shader
+  parent: UnityEngine
+  isExternal: true
+  name: Shader
+  nameWithType: Shader
+  fullName: UnityEngine.Shader
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadTextures_System_String___
+  name: LoadTextures
+  nameWithType: AssetExtensions.LoadTextures
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadTextures
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: UnityEngine.Texture[]
+  isExternal: true
+  name: Texture[]
+  nameWithType: Texture[]
+  fullName: UnityEngine.Texture[]
+  nameWithType.vb: Texture()
+  fullName.vb: UnityEngine.Texture()
+  name.vb: Texture()
+  spec.csharp:
+  - uid: UnityEngine.Texture
+    name: Texture
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Texture
+    name: Texture
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadPrefabs_System_String___
+  name: LoadPrefabs
+  nameWithType: AssetExtensions.LoadPrefabs
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadPrefabs
+- uid: UnityEngine.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: UnityEngine.GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: UnityEngine.GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadAudioClips_System_String___
+  name: LoadAudioClips
+  nameWithType: AssetExtensions.LoadAudioClips
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadAudioClips
+- uid: UnityEngine.AudioClip[]
+  isExternal: true
+  name: AudioClip[]
+  nameWithType: AudioClip[]
+  fullName: UnityEngine.AudioClip[]
+  nameWithType.vb: AudioClip()
+  fullName.vb: UnityEngine.AudioClip()
+  name.vb: AudioClip()
+  spec.csharp:
+  - uid: UnityEngine.AudioClip
+    name: AudioClip
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.AudioClip
+    name: AudioClip
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadMaterials_System_String___
+  name: LoadMaterials
+  nameWithType: AssetExtensions.LoadMaterials
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMaterials
+- uid: UnityEngine.Material[]
+  isExternal: true
+  name: Material[]
+  nameWithType: Material[]
+  fullName: UnityEngine.Material[]
+  nameWithType.vb: Material()
+  fullName.vb: UnityEngine.Material()
+  name.vb: Material()
+  spec.csharp:
+  - uid: UnityEngine.Material
+    name: Material
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Material
+    name: Material
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadMeshes_System_String___
+  name: LoadMeshes
+  nameWithType: AssetExtensions.LoadMeshes
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadMeshes
+- uid: UnityEngine.Mesh[]
+  isExternal: true
+  name: Mesh[]
+  nameWithType: Mesh[]
+  fullName: UnityEngine.Mesh[]
+  nameWithType.vb: Mesh()
+  fullName.vb: UnityEngine.Mesh()
+  name.vb: Mesh()
+  spec.csharp:
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_LoadShaders_System_String___
+  name: LoadShaders
+  nameWithType: AssetExtensions.LoadShaders
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.LoadShaders
+- uid: UnityEngine.Shader[]
+  isExternal: true
+  name: Shader[]
+  nameWithType: Shader[]
+  fullName: UnityEngine.Shader[]
+  nameWithType.vb: Shader()
+  fullName.vb: UnityEngine.Shader()
+  name.vb: Shader()
+  spec.csharp:
+  - uid: UnityEngine.Shader
+    name: Shader
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Shader
+    name: Shader
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab*
+  commentId: Overload:MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab
+  href: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.html#MyUniversalUtils_ModLoaderExtensions_AssetExtensions_InstantiateFromPrefab_System_String_
+  name: InstantiateFromPrefab
+  nameWithType: AssetExtensions.InstantiateFromPrefab
+  fullName: MyUniversalUtils.ModLoaderExtensions.AssetExtensions.InstantiateFromPrefab
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform

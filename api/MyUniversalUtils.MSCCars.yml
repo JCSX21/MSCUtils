@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyUniversalUtils.MSCCars
+  commentId: T:MyUniversalUtils.MSCCars
+  id: MSCCars
+  parent: MyUniversalUtils
+  children:
+  - MyUniversalUtils.MSCCars.ArvoAlgotson
+  - MyUniversalUtils.MSCCars.Bus
+  - MyUniversalUtils.MSCCars.EDM
+  - MyUniversalUtils.MSCCars.Ferndale
+  - MyUniversalUtils.MSCCars.Hayosiko
+  - MyUniversalUtils.MSCCars.Kekmet
+  - MyUniversalUtils.MSCCars.Ricochet
+  - MyUniversalUtils.MSCCars.Ruscko
+  - MyUniversalUtils.MSCCars.Satsuma
+  - MyUniversalUtils.MSCCars.Svoboda
+  - MyUniversalUtils.MSCCars.Traffic
+  langs:
+  - csharp
+  - vb
+  name: MSCCars
+  nameWithType: MSCCars
+  fullName: MyUniversalUtils.MSCCars
+  type: Enum
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: MSCCars
+    path: MSCUtils/Statics.cs
+    startLine: 63
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: public enum MSCCars
+    content.vb: Public Enum MSCCars
+- uid: MyUniversalUtils.MSCCars.Satsuma
+  commentId: F:MyUniversalUtils.MSCCars.Satsuma
+  id: Satsuma
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Satsuma
+  nameWithType: MSCCars.Satsuma
+  fullName: MyUniversalUtils.MSCCars.Satsuma
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Satsuma
+    path: MSCUtils/Statics.cs
+    startLine: 65
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Satsuma = 0
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Ferndale
+  commentId: F:MyUniversalUtils.MSCCars.Ferndale
+  id: Ferndale
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Ferndale
+  nameWithType: MSCCars.Ferndale
+  fullName: MyUniversalUtils.MSCCars.Ferndale
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Ferndale
+    path: MSCUtils/Statics.cs
+    startLine: 66
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Ferndale = 1
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Hayosiko
+  commentId: F:MyUniversalUtils.MSCCars.Hayosiko
+  id: Hayosiko
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Hayosiko
+  nameWithType: MSCCars.Hayosiko
+  fullName: MyUniversalUtils.MSCCars.Hayosiko
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Hayosiko
+    path: MSCUtils/Statics.cs
+    startLine: 67
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Hayosiko = 2
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.EDM
+  commentId: F:MyUniversalUtils.MSCCars.EDM
+  id: EDM
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: EDM
+  nameWithType: MSCCars.EDM
+  fullName: MyUniversalUtils.MSCCars.EDM
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: EDM
+    path: MSCUtils/Statics.cs
+    startLine: 68
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: EDM = 3
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Bus
+  commentId: F:MyUniversalUtils.MSCCars.Bus
+  id: Bus
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: MSCCars.Bus
+  fullName: MyUniversalUtils.MSCCars.Bus
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Bus
+    path: MSCUtils/Statics.cs
+    startLine: 69
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Bus = 4
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Traffic
+  commentId: F:MyUniversalUtils.MSCCars.Traffic
+  id: Traffic
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Traffic
+  nameWithType: MSCCars.Traffic
+  fullName: MyUniversalUtils.MSCCars.Traffic
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Traffic
+    path: MSCUtils/Statics.cs
+    startLine: 70
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Traffic = 5
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Kekmet
+  commentId: F:MyUniversalUtils.MSCCars.Kekmet
+  id: Kekmet
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Kekmet
+  nameWithType: MSCCars.Kekmet
+  fullName: MyUniversalUtils.MSCCars.Kekmet
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Kekmet
+    path: MSCUtils/Statics.cs
+    startLine: 71
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Kekmet = 6
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.ArvoAlgotson
+  commentId: F:MyUniversalUtils.MSCCars.ArvoAlgotson
+  id: ArvoAlgotson
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: ArvoAlgotson
+  nameWithType: MSCCars.ArvoAlgotson
+  fullName: MyUniversalUtils.MSCCars.ArvoAlgotson
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: ArvoAlgotson
+    path: MSCUtils/Statics.cs
+    startLine: 72
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: ArvoAlgotson = 7
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Ruscko
+  commentId: F:MyUniversalUtils.MSCCars.Ruscko
+  id: Ruscko
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Ruscko
+  nameWithType: MSCCars.Ruscko
+  fullName: MyUniversalUtils.MSCCars.Ruscko
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Ruscko
+    path: MSCUtils/Statics.cs
+    startLine: 73
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Ruscko = 8
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Ricochet
+  commentId: F:MyUniversalUtils.MSCCars.Ricochet
+  id: Ricochet
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Ricochet
+  nameWithType: MSCCars.Ricochet
+  fullName: MyUniversalUtils.MSCCars.Ricochet
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Ricochet
+    path: MSCUtils/Statics.cs
+    startLine: 74
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Ricochet = 9
+    return:
+      type: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils.MSCCars.Svoboda
+  commentId: F:MyUniversalUtils.MSCCars.Svoboda
+  id: Svoboda
+  parent: MyUniversalUtils.MSCCars
+  langs:
+  - csharp
+  - vb
+  name: Svoboda
+  nameWithType: MSCCars.Svoboda
+  fullName: MyUniversalUtils.MSCCars.Svoboda
+  type: Field
+  source:
+    remote:
+      path: MSCUtils/Statics.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Svoboda
+    path: MSCUtils/Statics.cs
+    startLine: 75
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils
+  syntax:
+    content: Svoboda = 10
+    return:
+      type: MyUniversalUtils.MSCCars
+references:
+- uid: MyUniversalUtils
+  commentId: N:MyUniversalUtils
+  href: MyUniversalUtils.html
+  name: MyUniversalUtils
+  nameWithType: MyUniversalUtils
+  fullName: MyUniversalUtils
+- uid: MyUniversalUtils.MSCCars
+  commentId: T:MyUniversalUtils.MSCCars
+  parent: MyUniversalUtils
+  href: MyUniversalUtils.MSCCars.html
+  name: MSCCars
+  nameWithType: MSCCars
+  fullName: MyUniversalUtils.MSCCars

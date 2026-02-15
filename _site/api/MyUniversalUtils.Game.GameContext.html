@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameContext | MyUniversalUtils </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameContext | MyUniversalUtils ">
+      
+      <meta name="description" content="Simple Game Context class to easily access common GameObjects and Components in both MSC and MWC without having to worry about null checks or caching them yourself.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/JCSX21/MSCUtils/new/main/apiSpec/new?filename=MyUniversalUtils_Game_GameContext.md&amp;value=---%0Auid%3A%20MyUniversalUtils.Game.GameContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MyUniversalUtils">
+            MyUniversalUtils
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="MyUniversalUtils.Game.GameContext">
+
+
+
+  <h1 id="MyUniversalUtils_Game_GameContext" data-uid="MyUniversalUtils.Game.GameContext" class="text-break">
+Class GameContext  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MyUniversalUtils.html">MyUniversalUtils</a>.<a class="xref" href="MyUniversalUtils.Game.html">Game</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MyUniversalUtils.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Simple Game Context class to easily access common GameObjects and Components in both MSC and MWC without having to worry about null checks or caching them yourself.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GameContext</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GameContext</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MyUniversalUtils_Game_GameContext_IsMSC_" data-uid="MyUniversalUtils.Game.GameContext.IsMSC*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_IsMSC" data-uid="MyUniversalUtils.Game.GameContext.IsMSC">
+  IsMSC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is My Summer Car active?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMSC { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_IsMWC_" data-uid="MyUniversalUtils.Game.GameContext.IsMWC*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_IsMWC" data-uid="MyUniversalUtils.Game.GameContext.IsMWC">
+  IsMWC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is My Winter Car active?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMWC { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_MainCamera_" data-uid="MyUniversalUtils.Game.GameContext.MainCamera*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_MainCamera" data-uid="MyUniversalUtils.Game.GameContext.MainCamera">
+  MainCamera
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Camera MainCamera { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Camera</span></dt>
+    <dd><p>Main Camera</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_Map_" data-uid="MyUniversalUtils.Game.GameContext.Map*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_Map" data-uid="MyUniversalUtils.Game.GameContext.Map">
+  Map
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Map { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>Map GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_Player_" data-uid="MyUniversalUtils.Game.GameContext.Player*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_Player" data-uid="MyUniversalUtils.Game.GameContext.Player">
+  Player
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Player { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>Player as GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_SunLight_" data-uid="MyUniversalUtils.Game.GameContext.SunLight*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_SunLight" data-uid="MyUniversalUtils.Game.GameContext.SunLight">
+  SunLight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Light SunLight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Light</span></dt>
+    <dd><p>Sun Light</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_Yard_" data-uid="MyUniversalUtils.Game.GameContext.Yard*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_Yard" data-uid="MyUniversalUtils.Game.GameContext.Yard">
+  Yard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Yard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>Yard GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MyUniversalUtils_Game_GameContext_GetCar_" data-uid="MyUniversalUtils.Game.GameContext.GetCar*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_GetCar_MyUniversalUtils_MSCCars_" data-uid="MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MSCCars)">
+  GetCar(MSCCars)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a Spefic Car GameObject by a Provided Enum.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject GetCar(MSCCars car)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>car</code> <a class="xref" href="MyUniversalUtils.MSCCars.html">MSCCars</a></dt>
+    <dd><p>Car you want to be returned</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>Given Car as GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_GetCar_" data-uid="MyUniversalUtils.Game.GameContext.GetCar*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_GetCar_MyUniversalUtils_MWCCars_" data-uid="MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MWCCars)">
+  GetCar(MWCCars)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a Spefic Car GameObject by a Provided Enum.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject GetCar(MWCCars car)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>car</code> <a class="xref" href="MyUniversalUtils.MWCCars.html">MWCCars</a></dt>
+    <dd><p>Car you want to be returned</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>Given Car as GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MyUniversalUtils_Game_GameContext_GetCars_" data-uid="MyUniversalUtils.Game.GameContext.GetCars*"></a>
+
+  <h3 id="MyUniversalUtils_Game_GameContext_GetCars" data-uid="MyUniversalUtils.Game.GameContext.GetCars">
+  GetCars()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Loads all Vehicles. Note that this is Game dependent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject[] GetCars()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span>[]</dt>
+    <dd><p>Array of Cars as GameObject</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/JCSX21/MSCUtils/blob/main/MSCUtils/Game/GameVariables.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,760 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyUniversalUtils.Game.GameContext
+  commentId: T:MyUniversalUtils.Game.GameContext
+  id: GameContext
+  parent: MyUniversalUtils.Game
+  children:
+  - MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MSCCars)
+  - MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MWCCars)
+  - MyUniversalUtils.Game.GameContext.GetCars
+  - MyUniversalUtils.Game.GameContext.IsMSC
+  - MyUniversalUtils.Game.GameContext.IsMWC
+  - MyUniversalUtils.Game.GameContext.MainCamera
+  - MyUniversalUtils.Game.GameContext.Map
+  - MyUniversalUtils.Game.GameContext.Player
+  - MyUniversalUtils.Game.GameContext.SunLight
+  - MyUniversalUtils.Game.GameContext.Yard
+  langs:
+  - csharp
+  - vb
+  name: GameContext
+  nameWithType: GameContext
+  fullName: MyUniversalUtils.Game.GameContext
+  type: Class
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: GameContext
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 8
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Simple Game Context class to easily access common GameObjects and Components in both MSC and MWC without having to worry about null checks or caching them yourself.
+  example: []
+  syntax:
+    content: public static class GameContext
+    content.vb: Public Module GameContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: MyUniversalUtils.Game.GameContext.IsMSC
+  commentId: P:MyUniversalUtils.Game.GameContext.IsMSC
+  id: IsMSC
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: IsMSC
+  nameWithType: GameContext.IsMSC
+  fullName: MyUniversalUtils.Game.GameContext.IsMSC
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: IsMSC
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 31
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Is My Summer Car active?
+  example: []
+  syntax:
+    content: public static bool IsMSC { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsMSC As Boolean
+  overload: MyUniversalUtils.Game.GameContext.IsMSC*
+- uid: MyUniversalUtils.Game.GameContext.IsMWC
+  commentId: P:MyUniversalUtils.Game.GameContext.IsMWC
+  id: IsMWC
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: IsMWC
+  nameWithType: GameContext.IsMWC
+  fullName: MyUniversalUtils.Game.GameContext.IsMWC
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: IsMWC
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 43
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Is My Winter Car active?
+  example: []
+  syntax:
+    content: public static bool IsMWC { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsMWC As Boolean
+  overload: MyUniversalUtils.Game.GameContext.IsMWC*
+- uid: MyUniversalUtils.Game.GameContext.MainCamera
+  commentId: P:MyUniversalUtils.Game.GameContext.MainCamera
+  id: MainCamera
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: MainCamera
+  nameWithType: GameContext.MainCamera
+  fullName: MyUniversalUtils.Game.GameContext.MainCamera
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: MainCamera
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 54
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  example: []
+  syntax:
+    content: public static Camera MainCamera { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Camera
+      description: Main Camera
+    content.vb: Public Shared ReadOnly Property MainCamera As Camera
+  overload: MyUniversalUtils.Game.GameContext.MainCamera*
+- uid: MyUniversalUtils.Game.GameContext.Player
+  commentId: P:MyUniversalUtils.Game.GameContext.Player
+  id: Player
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: GameContext.Player
+  fullName: MyUniversalUtils.Game.GameContext.Player
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Player
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 67
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  example: []
+  syntax:
+    content: public static GameObject Player { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+      description: Player as GameObject
+    content.vb: Public Shared ReadOnly Property Player As GameObject
+  overload: MyUniversalUtils.Game.GameContext.Player*
+- uid: MyUniversalUtils.Game.GameContext.SunLight
+  commentId: P:MyUniversalUtils.Game.GameContext.SunLight
+  id: SunLight
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: SunLight
+  nameWithType: GameContext.SunLight
+  fullName: MyUniversalUtils.Game.GameContext.SunLight
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: SunLight
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 80
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  example: []
+  syntax:
+    content: public static Light SunLight { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Light
+      description: Sun Light
+    content.vb: Public Shared ReadOnly Property SunLight As Light
+  overload: MyUniversalUtils.Game.GameContext.SunLight*
+- uid: MyUniversalUtils.Game.GameContext.Map
+  commentId: P:MyUniversalUtils.Game.GameContext.Map
+  id: Map
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: Map
+  nameWithType: GameContext.Map
+  fullName: MyUniversalUtils.Game.GameContext.Map
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Map
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 98
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  example: []
+  syntax:
+    content: public static GameObject Map { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+      description: Map GameObject
+    content.vb: Public Shared ReadOnly Property Map As GameObject
+  overload: MyUniversalUtils.Game.GameContext.Map*
+- uid: MyUniversalUtils.Game.GameContext.Yard
+  commentId: P:MyUniversalUtils.Game.GameContext.Yard
+  id: Yard
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: Yard
+  nameWithType: GameContext.Yard
+  fullName: MyUniversalUtils.Game.GameContext.Yard
+  type: Property
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: Yard
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 111
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  example: []
+  syntax:
+    content: public static GameObject Yard { get; }
+    parameters: []
+    return:
+      type: UnityEngine.GameObject
+      description: Yard GameObject
+    content.vb: Public Shared ReadOnly Property Yard As GameObject
+  overload: MyUniversalUtils.Game.GameContext.Yard*
+- uid: MyUniversalUtils.Game.GameContext.GetCars
+  commentId: M:MyUniversalUtils.Game.GameContext.GetCars
+  id: GetCars
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: GetCars()
+  nameWithType: GameContext.GetCars()
+  fullName: MyUniversalUtils.Game.GameContext.GetCars()
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: GetCars
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 127
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Loads all Vehicles. Note that this is Game dependent.
+  example: []
+  syntax:
+    content: public static GameObject[] GetCars()
+    return:
+      type: UnityEngine.GameObject[]
+      description: Array of Cars as GameObject
+    content.vb: Public Shared Function GetCars() As GameObject()
+  overload: MyUniversalUtils.Game.GameContext.GetCars*
+- uid: MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MSCCars)
+  commentId: M:MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MSCCars)
+  id: GetCar(MyUniversalUtils.MSCCars)
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: GetCar(MSCCars)
+  nameWithType: GameContext.GetCar(MSCCars)
+  fullName: MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MSCCars)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: GetCar
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 163
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Get a Spefic Car GameObject by a Provided Enum.
+  example: []
+  syntax:
+    content: public static GameObject GetCar(MSCCars car)
+    parameters:
+    - id: car
+      type: MyUniversalUtils.MSCCars
+      description: Car you want to be returned
+    return:
+      type: UnityEngine.GameObject
+      description: Given Car as GameObject
+    content.vb: Public Shared Function GetCar(car As MSCCars) As GameObject
+  overload: MyUniversalUtils.Game.GameContext.GetCar*
+- uid: MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MWCCars)
+  commentId: M:MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MWCCars)
+  id: GetCar(MyUniversalUtils.MWCCars)
+  parent: MyUniversalUtils.Game.GameContext
+  langs:
+  - csharp
+  - vb
+  name: GetCar(MWCCars)
+  nameWithType: GameContext.GetCar(MWCCars)
+  fullName: MyUniversalUtils.Game.GameContext.GetCar(MyUniversalUtils.MWCCars)
+  type: Method
+  source:
+    remote:
+      path: MSCUtils/Game/GameVariables.cs
+      branch: main
+      repo: https://github.com/JCSX21/MSCUtils.git
+    id: GetCar
+    path: MSCUtils/Game/GameVariables.cs
+    startLine: 200
+  assemblies:
+  - MyUniversalUtils
+  namespace: MyUniversalUtils.Game
+  summary: Get a Spefic Car GameObject by a Provided Enum.
+  example: []
+  syntax:
+    content: public static GameObject GetCar(MWCCars car)
+    parameters:
+    - id: car
+      type: MyUniversalUtils.MWCCars
+      description: Car you want to be returned
+    return:
+      type: UnityEngine.GameObject
+      description: Given Car as GameObject
+    content.vb: Public Shared Function GetCar(car As MWCCars) As GameObject
+  overload: MyUniversalUtils.Game.GameContext.GetCar*
+references:
+- uid: MyUniversalUtils.Game
+  commentId: N:MyUniversalUtils.Game
+  href: MyUniversalUtils.html
+  name: MyUniversalUtils.Game
+  nameWithType: MyUniversalUtils.Game
+  fullName: MyUniversalUtils.Game
+  spec.csharp:
+  - uid: MyUniversalUtils
+    name: MyUniversalUtils
+    href: MyUniversalUtils.html
+  - name: .
+  - uid: MyUniversalUtils.Game
+    name: Game
+    href: MyUniversalUtils.Game.html
+  spec.vb:
+  - uid: MyUniversalUtils
+    name: MyUniversalUtils
+    href: MyUniversalUtils.html
+  - name: .
+  - uid: MyUniversalUtils.Game
+    name: Game
+    href: MyUniversalUtils.Game.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MyUniversalUtils.Game.GameContext.IsMSC*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.IsMSC
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_IsMSC
+  name: IsMSC
+  nameWithType: GameContext.IsMSC
+  fullName: MyUniversalUtils.Game.GameContext.IsMSC
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: MyUniversalUtils.Game.GameContext.IsMWC*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.IsMWC
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_IsMWC
+  name: IsMWC
+  nameWithType: GameContext.IsMWC
+  fullName: MyUniversalUtils.Game.GameContext.IsMWC
+- uid: MyUniversalUtils.Game.GameContext.MainCamera*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.MainCamera
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_MainCamera
+  name: MainCamera
+  nameWithType: GameContext.MainCamera
+  fullName: MyUniversalUtils.Game.GameContext.MainCamera
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: MyUniversalUtils.Game.GameContext.Player*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.Player
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_Player
+  name: Player
+  nameWithType: GameContext.Player
+  fullName: MyUniversalUtils.Game.GameContext.Player
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: MyUniversalUtils.Game.GameContext.SunLight*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.SunLight
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_SunLight
+  name: SunLight
+  nameWithType: GameContext.SunLight
+  fullName: MyUniversalUtils.Game.GameContext.SunLight
+- uid: UnityEngine.Light
+  commentId: T:UnityEngine.Light
+  parent: UnityEngine
+  isExternal: true
+  name: Light
+  nameWithType: Light
+  fullName: UnityEngine.Light
+- uid: MyUniversalUtils.Game.GameContext.Map*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.Map
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_Map
+  name: Map
+  nameWithType: GameContext.Map
+  fullName: MyUniversalUtils.Game.GameContext.Map
+- uid: MyUniversalUtils.Game.GameContext.Yard*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.Yard
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_Yard
+  name: Yard
+  nameWithType: GameContext.Yard
+  fullName: MyUniversalUtils.Game.GameContext.Yard
+- uid: MyUniversalUtils.Game.GameContext.GetCars*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.GetCars
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_GetCars
+  name: GetCars
+  nameWithType: GameContext.GetCars
+  fullName: MyUniversalUtils.Game.GameContext.GetCars
+- uid: UnityEngine.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: UnityEngine.GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: UnityEngine.GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    isExternal: true
+  - name: (
+  - name: )
+- uid: MyUniversalUtils.Game.GameContext.GetCar*
+  commentId: Overload:MyUniversalUtils.Game.GameContext.GetCar
+  href: MyUniversalUtils.Game.GameContext.html#MyUniversalUtils_Game_GameContext_GetCar_MyUniversalUtils_MSCCars_
+  name: GetCar
+  nameWithType: GameContext.GetCar
+  fullName: MyUniversalUtils.Game.GameContext.GetCar
+- uid: MyUniversalUtils.MSCCars
+  commentId: T:MyUniversalUtils.MSCCars
+  parent: MyUniversalUtils
+  href: MyUniversalUtils.MSCCars.html
+  name: MSCCars
+  nameWithType: MSCCars
+  fullName: MyUniversalUtils.MSCCars
+- uid: MyUniversalUtils
+  commentId: N:MyUniversalUtils
+  href: MyUniversalUtils.html
+  name: MyUniversalUtils
+  nameWithType: MyUniversalUtils
+  fullName: MyUniversalUtils
+- uid: MyUniversalUtils.MWCCars
+  commentId: T:MyUniversalUtils.MWCCars
+  parent: MyUniversalUtils
+  href: MyUniversalUtils.MWCCars.html
+  name: MWCCars
+  nameWithType: MWCCars
+  fullName: MyUniversalUtils.MWCCars
