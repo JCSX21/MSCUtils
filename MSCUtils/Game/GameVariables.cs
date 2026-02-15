@@ -122,41 +122,6 @@ namespace MyUniversalUtils.Game
         }
 
         /// <summary>
-        /// Loads all Vehicles. Note that this is Game dependent.
-        /// </summary>
-        /// <returns>Array of Cars as GameObject</returns>
-        public static GameObject[] GetCars()
-        {
-            if (IsMSC)
-            {
-                // Hole alle MSCCars Enum-Werte
-                MSCCars[] allCars = (MSCCars[])System.Enum.GetValues(typeof(MSCCars));
-                GameObject[] results = new GameObject[allCars.Length];
-
-                for (int i = 0; i < allCars.Length; i++)
-                {
-                    results[i] = GetCar(allCars[i]);
-                }
-
-                return results;
-            }
-            else if (IsMWC)
-            {
-                // Hole alle MWCCars Enum-Werte
-                MWCCars[] allCars = (MWCCars[])System.Enum.GetValues(typeof(MWCCars));
-                GameObject[] results = new GameObject[allCars.Length];
-
-                for (int i = 0; i < allCars.Length; i++)
-                {
-                    results[i] = GetCar(allCars[i]);
-                }
-
-                return results;
-            }
-            return new GameObject[0];
-        }
-
-        /// <summary>
         /// Get a Spefic Car GameObject by a Provided Enum.
         /// </summary>
         /// <param name="car">Car you want to be returned</param>
