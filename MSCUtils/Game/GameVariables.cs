@@ -10,19 +10,19 @@ namespace MyUniversalUtils.Game
     {
         // Backing Fields
 
-        private static bool _isMSC; // Is MSC Active?
+        private static bool _isMSC;         // Is MSC Active?
 
-        private static bool _isMWC; // Is MWC Active?
+        private static bool _isMWC;         // Is MWC Active?
 
-        private static Camera _mainCamera; // Main Camera
+        private static Camera _mainCamera;  // Main Camera
 
-        private static GameObject _player; // Player GameObject
+        private static GameObject _player;  // Player GameObject
 
-        private static Light _sunLight; // Sun Light
+        private static Light _sunLight;     // Sun Light
 
-        private static GameObject _map; // Map GameObject
+        private static GameObject _map;     // Map GameObject
 
-        private static GameObject _yard; // Yard GameObject
+        private static GameObject _yard;    // Yard GameObject
 
         // Public Properties
 
@@ -33,7 +33,9 @@ namespace MyUniversalUtils.Game
         {
             get
             {
-                _isMSC = MSCLoader.ModLoader.CurrentGame == MSCLoader.Game.MySummerCar;
+                if (!_isMSC)
+                    _isMSC = MSCLoader.ModLoader.CurrentGame == MSCLoader.Game.MySummerCar;
+
                 return _isMSC;
             }
         }
@@ -45,7 +47,9 @@ namespace MyUniversalUtils.Game
         {
             get
             {
-                _isMWC = MSCLoader.ModLoader.CurrentGame == MSCLoader.Game.MyWinterCar;
+                if (!_isMWC)
+                    _isMWC = MSCLoader.ModLoader.CurrentGame == MSCLoader.Game.MyWinterCar;
+
                 return _isMWC;
             }
         }
